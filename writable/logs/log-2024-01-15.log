@@ -1,0 +1,932 @@
+INFO - 2024-01-15 06:48:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 06:48:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-15 06:48:30 --> Undefined variable $menus
+in APPPATH\Views\admin\common\side_navbar.php on line 93.
+ 1 APPPATH\Views\admin\common\side_navbar.php(93): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $menus', 'C:\\xampp\\htdocs\\code_igniter\\app\\Views\\admin\\common\\side_navbar.php', 93)
+ 2 APPPATH\Views\admin\main.php(16): include('C:\\xampp\\htdocs\\code_igniter\\app\\Views\\admin\\common\\side_navbar.php')
+ 3 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\code_igniter\\app\\Views\\admin\\main.php')
+ 4 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('admin/main', [], true)
+ 6 APPPATH\Controllers\Admin.php(15): view('admin/main')
+ 7 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin->index()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-15 06:48:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 06:48:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-15 06:48:42 --> Undefined variable $menus
+in APPPATH\Views\admin\common\side_navbar.php on line 93.
+ 1 APPPATH\Views\admin\common\side_navbar.php(93): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $menus', 'C:\\xampp\\htdocs\\code_igniter\\app\\Views\\admin\\common\\side_navbar.php', 93)
+ 2 APPPATH\Views\admin\main.php(16): include('C:\\xampp\\htdocs\\code_igniter\\app\\Views\\admin\\common\\side_navbar.php')
+ 3 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\code_igniter\\app\\Views\\admin\\main.php')
+ 4 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('admin/main', [], true)
+ 6 APPPATH\Controllers\Admin.php(15): view('admin/main')
+ 7 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin->index()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-15 06:49:13 --> Updates are not allowed unless they contain a "where" or "like" clause.
+in SYSTEMPATH\Model.php on line 380.
+ 1 SYSTEMPATH\BaseModel.php(949): CodeIgniter\Model->doUpdate(null, [...])
+ 2 SYSTEMPATH\Model.php(776): CodeIgniter\BaseModel->update(null, [...])
+ 3 APPPATH\Controllers\Admin.php(97): CodeIgniter\Model->update(null, [...])
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin->edit_cat()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-15 06:49:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 06:49:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-15 06:49:46 --> Undefined variable $menus
+in APPPATH\Views\admin\common\side_navbar.php on line 93.
+ 1 APPPATH\Views\admin\common\side_navbar.php(93): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $menus', 'C:\\xampp\\htdocs\\code_igniter\\app\\Views\\admin\\common\\side_navbar.php', 93)
+ 2 APPPATH\Views\admin\main.php(16): include('C:\\xampp\\htdocs\\code_igniter\\app\\Views\\admin\\common\\side_navbar.php')
+ 3 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\code_igniter\\app\\Views\\admin\\main.php')
+ 4 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('admin/main', [], true)
+ 6 APPPATH\Controllers\Admin.php(15): view('admin/main')
+ 7 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin->index()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-15 06:51:43 --> Undefined variable $menus
+in APPPATH\Views\admin\common\side_navbar.php on line 93.
+ 1 APPPATH\Views\admin\common\side_navbar.php(93): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $menus', 'C:\\xampp\\htdocs\\code_igniter\\app\\Views\\admin\\common\\side_navbar.php', 93)
+ 2 APPPATH\Views\admin\main.php(16): include('C:\\xampp\\htdocs\\code_igniter\\app\\Views\\admin\\common\\side_navbar.php')
+ 3 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\code_igniter\\app\\Views\\admin\\main.php')
+ 4 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('admin/main', [], true)
+ 6 APPPATH\Controllers\Admin.php(15): view('admin/main')
+ 7 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin->index()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-15 06:51:46 --> Undefined variable $menus
+in APPPATH\Views\admin\common\side_navbar.php on line 93.
+ 1 APPPATH\Views\admin\common\side_navbar.php(93): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $menus', 'C:\\xampp\\htdocs\\code_igniter\\app\\Views\\admin\\common\\side_navbar.php', 93)
+ 2 APPPATH\Views\admin\main.php(16): include('C:\\xampp\\htdocs\\code_igniter\\app\\Views\\admin\\common\\side_navbar.php')
+ 3 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\code_igniter\\app\\Views\\admin\\main.php')
+ 4 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('admin/main', [], true)
+ 6 APPPATH\Controllers\Admin.php(15): view('admin/main')
+ 7 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin->index()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-15 06:51:47 --> Undefined variable $menus
+in APPPATH\Views\admin\common\side_navbar.php on line 93.
+ 1 APPPATH\Views\admin\common\side_navbar.php(93): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $menus', 'C:\\xampp\\htdocs\\code_igniter\\app\\Views\\admin\\common\\side_navbar.php', 93)
+ 2 APPPATH\Views\admin\main.php(16): include('C:\\xampp\\htdocs\\code_igniter\\app\\Views\\admin\\common\\side_navbar.php')
+ 3 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\code_igniter\\app\\Views\\admin\\main.php')
+ 4 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('admin/main', [], true)
+ 6 APPPATH\Controllers\Admin.php(15): view('admin/main')
+ 7 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin->index()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-15 06:53:40 --> Undefined variable $menus
+in APPPATH\Views\admin\common\side_navbar.php on line 93.
+ 1 APPPATH\Views\admin\common\side_navbar.php(93): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $menus', 'C:\\xampp\\htdocs\\code_igniter\\app\\Views\\admin\\common\\side_navbar.php', 93)
+ 2 APPPATH\Views\admin\main.php(16): include('C:\\xampp\\htdocs\\code_igniter\\app\\Views\\admin\\common\\side_navbar.php')
+ 3 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\code_igniter\\app\\Views\\admin\\main.php')
+ 4 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('admin/main', [], true)
+ 6 APPPATH\Controllers\Admin.php(15): view('admin/main')
+ 7 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin->index()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-15 06:53:43 --> Undefined variable $menus
+in APPPATH\Views\admin\common\side_navbar.php on line 93.
+ 1 APPPATH\Views\admin\common\side_navbar.php(93): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $menus', 'C:\\xampp\\htdocs\\code_igniter\\app\\Views\\admin\\common\\side_navbar.php', 93)
+ 2 APPPATH\Views\admin\main.php(16): include('C:\\xampp\\htdocs\\code_igniter\\app\\Views\\admin\\common\\side_navbar.php')
+ 3 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\code_igniter\\app\\Views\\admin\\main.php')
+ 4 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('admin/main', [], true)
+ 6 APPPATH\Controllers\Admin.php(15): view('admin/main')
+ 7 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin->index()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-15 06:54:11 --> Undefined variable $menus
+in APPPATH\Views\admin\common\side_navbar.php on line 93.
+ 1 APPPATH\Views\admin\common\side_navbar.php(93): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $menus', 'C:\\xampp\\htdocs\\code_igniter\\app\\Views\\admin\\common\\side_navbar.php', 93)
+ 2 APPPATH\Views\admin\main.php(16): include('C:\\xampp\\htdocs\\code_igniter\\app\\Views\\admin\\common\\side_navbar.php')
+ 3 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\code_igniter\\app\\Views\\admin\\main.php')
+ 4 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('admin/main', [], true)
+ 6 APPPATH\Controllers\Admin.php(15): view('admin/main')
+ 7 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin->index()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-15 06:54:32 --> Undefined variable $Menus
+in APPPATH\Views\admin\common\side_navbar.php on line 93.
+ 1 APPPATH\Views\admin\common\side_navbar.php(93): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $Menus', 'C:\\xampp\\htdocs\\code_igniter\\app\\Views\\admin\\common\\side_navbar.php', 93)
+ 2 APPPATH\Views\admin\main.php(16): include('C:\\xampp\\htdocs\\code_igniter\\app\\Views\\admin\\common\\side_navbar.php')
+ 3 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\code_igniter\\app\\Views\\admin\\main.php')
+ 4 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('admin/main', [], true)
+ 6 APPPATH\Controllers\Admin.php(15): view('admin/main')
+ 7 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin->index()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-15 06:55:22 --> Undefined variable $Menus
+in APPPATH\Views\admin\common\side_navbar.php on line 93.
+ 1 APPPATH\Views\admin\common\side_navbar.php(93): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $Menus', 'C:\\xampp\\htdocs\\code_igniter\\app\\Views\\admin\\common\\side_navbar.php', 93)
+ 2 APPPATH\Views\admin\main.php(16): include('C:\\xampp\\htdocs\\code_igniter\\app\\Views\\admin\\common\\side_navbar.php')
+ 3 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\code_igniter\\app\\Views\\admin\\main.php')
+ 4 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('admin/main', [], true)
+ 6 APPPATH\Controllers\Admin.php(15): view('admin/main')
+ 7 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin->index()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-15 07:02:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-15 07:04:22 --> Undefined variable $menus
+in APPPATH\Views\admin\common\side_navbar.php on line 93.
+ 1 APPPATH\Views\admin\common\side_navbar.php(93): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $menus', 'C:\\xampp\\htdocs\\code_igniter\\app\\Views\\admin\\common\\side_navbar.php', 93)
+ 2 APPPATH\Views\admin\main.php(16): include('C:\\xampp\\htdocs\\code_igniter\\app\\Views\\admin\\common\\side_navbar.php')
+ 3 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\code_igniter\\app\\Views\\admin\\main.php')
+ 4 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('admin/main', [], true)
+ 6 APPPATH\Controllers\Admin.php(15): view('admin/main')
+ 7 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin->index()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-15 07:04:31 --> Undefined variable $Menus
+in APPPATH\Views\admin\common\side_navbar.php on line 93.
+ 1 APPPATH\Views\admin\common\side_navbar.php(93): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $Menus', 'C:\\xampp\\htdocs\\code_igniter\\app\\Views\\admin\\common\\side_navbar.php', 93)
+ 2 APPPATH\Views\admin\main.php(16): include('C:\\xampp\\htdocs\\code_igniter\\app\\Views\\admin\\common\\side_navbar.php')
+ 3 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\code_igniter\\app\\Views\\admin\\main.php')
+ 4 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('admin/main', [], true)
+ 6 APPPATH\Controllers\Admin.php(15): view('admin/main')
+ 7 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin->index()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-15 07:06:31 --> Undefined variable $Menus
+in APPPATH\Views\admin\common\side_navbar.php on line 93.
+ 1 APPPATH\Views\admin\common\side_navbar.php(93): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $Menus', 'C:\\xampp\\htdocs\\code_igniter\\app\\Views\\admin\\common\\side_navbar.php', 93)
+ 2 APPPATH\Views\admin\main.php(16): include('C:\\xampp\\htdocs\\code_igniter\\app\\Views\\admin\\common\\side_navbar.php')
+ 3 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\code_igniter\\app\\Views\\admin\\main.php')
+ 4 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('admin/main', [], true)
+ 6 APPPATH\Controllers\Admin.php(15): view('admin/main')
+ 7 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin->index()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-15 07:23:57 --> Undefined variable $menus
+in APPPATH\Views\admin\common\side_navbar.php on line 93.
+ 1 APPPATH\Views\admin\common\side_navbar.php(93): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $menus', 'C:\\xampp\\htdocs\\code_igniter\\app\\Views\\admin\\common\\side_navbar.php', 93)
+ 2 APPPATH\Views\admin\main.php(16): include('C:\\xampp\\htdocs\\code_igniter\\app\\Views\\admin\\common\\side_navbar.php')
+ 3 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\code_igniter\\app\\Views\\admin\\main.php')
+ 4 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('admin/main', [], true)
+ 6 APPPATH\Controllers\Admin.php(15): view('admin/main')
+ 7 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin->index()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-15 07:23:59 --> Undefined variable $menus
+in APPPATH\Views\admin\common\side_navbar.php on line 93.
+ 1 APPPATH\Views\admin\common\side_navbar.php(93): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $menus', 'C:\\xampp\\htdocs\\code_igniter\\app\\Views\\admin\\common\\side_navbar.php', 93)
+ 2 APPPATH\Views\admin\main.php(16): include('C:\\xampp\\htdocs\\code_igniter\\app\\Views\\admin\\common\\side_navbar.php')
+ 3 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\code_igniter\\app\\Views\\admin\\main.php')
+ 4 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('admin/main', [], true)
+ 6 APPPATH\Controllers\Admin.php(15): view('admin/main')
+ 7 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin->index()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-15 07:23:59 --> Undefined variable $menus
+in APPPATH\Views\admin\common\side_navbar.php on line 93.
+ 1 APPPATH\Views\admin\common\side_navbar.php(93): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $menus', 'C:\\xampp\\htdocs\\code_igniter\\app\\Views\\admin\\common\\side_navbar.php', 93)
+ 2 APPPATH\Views\admin\main.php(16): include('C:\\xampp\\htdocs\\code_igniter\\app\\Views\\admin\\common\\side_navbar.php')
+ 3 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\code_igniter\\app\\Views\\admin\\main.php')
+ 4 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('admin/main', [], true)
+ 6 APPPATH\Controllers\Admin.php(15): view('admin/main')
+ 7 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin->index()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-15 07:24:08 --> Undefined variable $Menus
+in APPPATH\Views\admin\common\side_navbar.php on line 93.
+ 1 APPPATH\Views\admin\common\side_navbar.php(93): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $Menus', 'C:\\xampp\\htdocs\\code_igniter\\app\\Views\\admin\\common\\side_navbar.php', 93)
+ 2 APPPATH\Views\admin\main.php(16): include('C:\\xampp\\htdocs\\code_igniter\\app\\Views\\admin\\common\\side_navbar.php')
+ 3 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\code_igniter\\app\\Views\\admin\\main.php')
+ 4 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('admin/main', [], true)
+ 6 APPPATH\Controllers\Admin.php(15): view('admin/main')
+ 7 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin->index()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-15 07:24:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 07:24:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-15 07:25:39 --> Undefined variable $Menus
+in APPPATH\Views\admin\common\side_navbar.php on line 93.
+ 1 APPPATH\Views\admin\common\side_navbar.php(93): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $Menus', 'C:\\xampp\\htdocs\\code_igniter\\app\\Views\\admin\\common\\side_navbar.php', 93)
+ 2 APPPATH\Views\admin\pages.php(17): include('C:\\xampp\\htdocs\\code_igniter\\app\\Views\\admin\\common\\side_navbar.php')
+ 3 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\code_igniter\\app\\Views\\admin\\pages.php')
+ 4 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('admin/pages', [], true)
+ 6 APPPATH\Controllers\Admin.php(133): view('admin/pages', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin->pages()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-15 07:26:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 07:26:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 07:26:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 07:28:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-15 07:28:52 --> Undefined variable $data
+in APPPATH\Controllers\Admin.php on line 123.
+ 1 APPPATH\Controllers\Admin.php(123): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\xampp\\htdocs\\code_igniter\\app\\Controllers\\Admin.php', 123)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin->prac_page()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-15 07:29:05 --> Undefined variable $menus
+in APPPATH\Views\admin\common\side_navbar.php on line 93.
+ 1 APPPATH\Views\admin\common\side_navbar.php(93): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $menus', 'C:\\xampp\\htdocs\\code_igniter\\app\\Views\\admin\\common\\side_navbar.php', 93)
+ 2 APPPATH\Views\admin\view_page.php(17): include('C:\\xampp\\htdocs\\code_igniter\\app\\Views\\admin\\common\\side_navbar.php')
+ 3 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\code_igniter\\app\\Views\\admin\\view_page.php')
+ 4 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('admin/view_page', [], true)
+ 6 APPPATH\Controllers\Admin.php(123): view('admin/view_page')
+ 7 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin->prac_page()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-15 07:29:26 --> Undefined variable $menus
+in APPPATH\Views\admin\common\side_navbar.php on line 93.
+ 1 APPPATH\Views\admin\common\side_navbar.php(93): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $menus', 'C:\\xampp\\htdocs\\code_igniter\\app\\Views\\admin\\common\\side_navbar.php', 93)
+ 2 APPPATH\Views\admin\view_page.php(17): include('C:\\xampp\\htdocs\\code_igniter\\app\\Views\\admin\\common\\side_navbar.php')
+ 3 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\code_igniter\\app\\Views\\admin\\view_page.php')
+ 4 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('admin/view_page', [], true)
+ 6 APPPATH\Controllers\Admin.php(123): view('admin/view_page')
+ 7 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin->prac_page()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-15 07:29:28 --> Undefined variable $menus
+in APPPATH\Views\admin\common\side_navbar.php on line 93.
+ 1 APPPATH\Views\admin\common\side_navbar.php(93): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $menus', 'C:\\xampp\\htdocs\\code_igniter\\app\\Views\\admin\\common\\side_navbar.php', 93)
+ 2 APPPATH\Views\admin\view_page.php(17): include('C:\\xampp\\htdocs\\code_igniter\\app\\Views\\admin\\common\\side_navbar.php')
+ 3 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\code_igniter\\app\\Views\\admin\\view_page.php')
+ 4 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('admin/view_page', [], true)
+ 6 APPPATH\Controllers\Admin.php(123): view('admin/view_page')
+ 7 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin->prac_page()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-15 07:29:29 --> Undefined variable $menus
+in APPPATH\Views\admin\common\side_navbar.php on line 93.
+ 1 APPPATH\Views\admin\common\side_navbar.php(93): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $menus', 'C:\\xampp\\htdocs\\code_igniter\\app\\Views\\admin\\common\\side_navbar.php', 93)
+ 2 APPPATH\Views\admin\view_page.php(17): include('C:\\xampp\\htdocs\\code_igniter\\app\\Views\\admin\\common\\side_navbar.php')
+ 3 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\code_igniter\\app\\Views\\admin\\view_page.php')
+ 4 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('admin/view_page', [], true)
+ 6 APPPATH\Controllers\Admin.php(123): view('admin/view_page')
+ 7 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin->prac_page()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-15 07:29:33 --> Undefined variable $menus
+in APPPATH\Views\admin\common\side_navbar.php on line 93.
+ 1 APPPATH\Views\admin\common\side_navbar.php(93): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $menus', 'C:\\xampp\\htdocs\\code_igniter\\app\\Views\\admin\\common\\side_navbar.php', 93)
+ 2 APPPATH\Views\admin\view_page.php(17): include('C:\\xampp\\htdocs\\code_igniter\\app\\Views\\admin\\common\\side_navbar.php')
+ 3 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\code_igniter\\app\\Views\\admin\\view_page.php')
+ 4 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('admin/view_page', [], true)
+ 6 APPPATH\Controllers\Admin.php(123): view('admin/view_page')
+ 7 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin->prac_page()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-15 07:29:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 07:29:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-15 07:29:46 --> Undefined variable $menus
+in APPPATH\Views\admin\common\side_navbar.php on line 93.
+ 1 APPPATH\Views\admin\common\side_navbar.php(93): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $menus', 'C:\\xampp\\htdocs\\code_igniter\\app\\Views\\admin\\common\\side_navbar.php', 93)
+ 2 APPPATH\Views\admin\view_page.php(17): include('C:\\xampp\\htdocs\\code_igniter\\app\\Views\\admin\\common\\side_navbar.php')
+ 3 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\code_igniter\\app\\Views\\admin\\view_page.php')
+ 4 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('admin/view_page', [], true)
+ 6 APPPATH\Controllers\Admin.php(123): view('admin/view_page')
+ 7 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin->prac_page()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-15 07:38:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-15 07:47:58 --> Undefined variable $pages
+in APPPATH\Views\admin\view_page.php on line 235.
+ 1 APPPATH\Views\admin\view_page.php(235): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pages', 'C:\\xampp\\htdocs\\code_igniter\\app\\Views\\admin\\view_page.php', 235)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\code_igniter\\app\\Views\\admin\\view_page.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('admin/view_page', [], true)
+ 5 APPPATH\Controllers\Admin.php(124): view('admin/view_page', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin->prac_page()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-15 07:49:28 --> Undefined variable $page
+in APPPATH\Views\admin\view_page.php on line 235.
+ 1 APPPATH\Views\admin\view_page.php(235): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $page', 'C:\\xampp\\htdocs\\code_igniter\\app\\Views\\admin\\view_page.php', 235)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\code_igniter\\app\\Views\\admin\\view_page.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('admin/view_page', [], true)
+ 5 APPPATH\Controllers\Admin.php(124): view('admin/view_page', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin->prac_page()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-15 07:50:05 --> Undefined variable $page
+in APPPATH\Views\admin\view_page.php on line 235.
+ 1 APPPATH\Views\admin\view_page.php(235): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $page', 'C:\\xampp\\htdocs\\code_igniter\\app\\Views\\admin\\view_page.php', 235)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\code_igniter\\app\\Views\\admin\\view_page.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('admin/view_page', [], true)
+ 5 APPPATH\Controllers\Admin.php(124): view('admin/view_page', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin->prac_page()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-15 07:51:09 --> Undefined variable $menus
+in APPPATH\Views\admin\common\side_navbar.php on line 93.
+ 1 APPPATH\Views\admin\common\side_navbar.php(93): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $menus', 'C:\\xampp\\htdocs\\code_igniter\\app\\Views\\admin\\common\\side_navbar.php', 93)
+ 2 APPPATH\Views\admin\view_page.php(17): include('C:\\xampp\\htdocs\\code_igniter\\app\\Views\\admin\\common\\side_navbar.php')
+ 3 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\code_igniter\\app\\Views\\admin\\view_page.php')
+ 4 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('admin/view_page', [], true)
+ 6 APPPATH\Controllers\Admin.php(122): view('admin/view_page')
+ 7 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin->prac_page()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-15 07:54:14 --> foreach() argument must be of type array|object, null given
+in APPPATH\Views\admin\view_page.php on line 235.
+ 1 APPPATH\Views\admin\view_page.php(235): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, null given', 'C:\\xampp\\htdocs\\code_igniter\\app\\Views\\admin\\view_page.php', 235)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\code_igniter\\app\\Views\\admin\\view_page.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('admin/view_page', [], true)
+ 5 APPPATH\Controllers\Admin.php(127): view('admin/view_page', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin->prac_page()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-15 07:57:14 --> view(): Argument #2 ($data) must be of type array, null given, called in C:\xampp\htdocs\code_igniter\app\Controllers\Admin.php on line 127
+in SYSTEMPATH\Common.php on line 1178.
+ 1 APPPATH\Controllers\Admin.php(127): view('admin/view_page', null)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin->prac_page()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-15 07:58:02 --> view(): Argument #2 ($data) must be of type array, null given, called in C:\xampp\htdocs\code_igniter\app\Controllers\Admin.php on line 128
+in SYSTEMPATH\Common.php on line 1178.
+ 1 APPPATH\Controllers\Admin.php(128): view('admin/view_page', null)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin->prac_page()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-15 07:58:09 --> view(): Argument #2 ($data) must be of type array, null given, called in C:\xampp\htdocs\code_igniter\app\Controllers\Admin.php on line 128
+in SYSTEMPATH\Common.php on line 1178.
+ 1 APPPATH\Controllers\Admin.php(128): view('admin/view_page', null)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin->prac_page()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-15 07:58:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-15 07:58:13 --> view(): Argument #2 ($data) must be of type array, null given, called in C:\xampp\htdocs\code_igniter\app\Controllers\Admin.php on line 128
+in SYSTEMPATH\Common.php on line 1178.
+ 1 APPPATH\Controllers\Admin.php(128): view('admin/view_page', null)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin->prac_page()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-15 07:58:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 07:58:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 07:58:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 07:58:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 07:59:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-01-15 07:59:09 --> mysqli_sql_exception: Column 'id' in where clause is ambiguous in C:\xampp\htdocs\code_igniter\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\code_igniter\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `menus`....', 0)
+#1 C:\xampp\htdocs\code_igniter\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `menus`....')
+#2 C:\xampp\htdocs\code_igniter\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `menus`....')
+#3 C:\xampp\htdocs\code_igniter\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `menus`....', Array, false)
+#4 C:\xampp\htdocs\code_igniter\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\code_igniter\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\code_igniter\app\Models\pages.php(19): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\code_igniter\app\Controllers\Admin.php(127): App\Models\Pages->getData()
+#8 C:\xampp\htdocs\code_igniter\system\CodeIgniter.php(942): App\Controllers\Admin->prac_page()
+#9 C:\xampp\htdocs\code_igniter\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#10 C:\xampp\htdocs\code_igniter\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\code_igniter\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2024-01-15 07:59:09 --> Column 'id' in where clause is ambiguous
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `menus`.`menu_name`, `pages`.*
+FROM `pages`
+INNER JOIN `menus` ON `menus`.`id` = `pages`.`menu_id`
+WHERE `id` = :id:', [...], false)
+ 2 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Models\pages.php(19): CodeIgniter\BaseModel->findAll()
+ 5 APPPATH\Controllers\Admin.php(127): App\Models\Pages->getData()
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin->prac_page()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-15 07:59:28 --> view(): Argument #2 ($data) must be of type array, null given, called in C:\xampp\htdocs\code_igniter\app\Controllers\Admin.php on line 128
+in SYSTEMPATH\Common.php on line 1178.
+ 1 APPPATH\Controllers\Admin.php(128): view('admin/view_page', null)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin->prac_page()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-15 08:00:37 --> view(): Argument #2 ($data) must be of type array, null given, called in C:\xampp\htdocs\code_igniter\app\Controllers\Admin.php on line 128
+in SYSTEMPATH\Common.php on line 1178.
+ 1 APPPATH\Controllers\Admin.php(128): view('admin/view_page', null)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin->prac_page()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-15 08:00:38 --> view(): Argument #2 ($data) must be of type array, null given, called in C:\xampp\htdocs\code_igniter\app\Controllers\Admin.php on line 128
+in SYSTEMPATH\Common.php on line 1178.
+ 1 APPPATH\Controllers\Admin.php(128): view('admin/view_page', null)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin->prac_page()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-15 08:00:43 --> view(): Argument #2 ($data) must be of type array, null given, called in C:\xampp\htdocs\code_igniter\app\Controllers\Admin.php on line 127
+in SYSTEMPATH\Common.php on line 1178.
+ 1 APPPATH\Controllers\Admin.php(127): view('admin/view_page', null)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin->prac_page()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-15 08:01:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 08:01:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-15 08:02:24 --> view(): Argument #2 ($data) must be of type array, null given, called in C:\xampp\htdocs\code_igniter\app\Controllers\Admin.php on line 127
+in SYSTEMPATH\Common.php on line 1178.
+ 1 APPPATH\Controllers\Admin.php(127): view('admin/view_page', null)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin->prac_page()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-15 09:11:41 --> view(): Argument #2 ($data) must be of type array, App\Models\Pages given, called in C:\xampp\htdocs\code_igniter\app\Controllers\Admin.php on line 126
+in SYSTEMPATH\Common.php on line 1178.
+ 1 APPPATH\Controllers\Admin.php(126): view('admin/view_page', Object(App\Models\Pages))
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin->prac_page()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-15 09:12:05 --> view(): Argument #2 ($data) must be of type array, null given, called in C:\xampp\htdocs\code_igniter\app\Controllers\Admin.php on line 126
+in SYSTEMPATH\Common.php on line 1178.
+ 1 APPPATH\Controllers\Admin.php(126): view('admin/view_page', null)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin->prac_page()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-15 09:12:14 --> view(): Argument #2 ($data) must be of type array, App\Models\Pages given, called in C:\xampp\htdocs\code_igniter\app\Controllers\Admin.php on line 126
+in SYSTEMPATH\Common.php on line 1178.
+ 1 APPPATH\Controllers\Admin.php(126): view('admin/view_page', Object(App\Models\Pages))
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin->prac_page()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-15 09:12:21 --> view(): Argument #2 ($data) must be of type array, null given, called in C:\xampp\htdocs\code_igniter\app\Controllers\Admin.php on line 126
+in SYSTEMPATH\Common.php on line 1178.
+ 1 APPPATH\Controllers\Admin.php(126): view('admin/view_page', null)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin->prac_page()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-15 09:20:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 09:20:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 09:20:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 09:21:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 09:22:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-15 09:22:43 --> Undefined variable $menus
+in APPPATH\Views\admin\common\side_navbar.php on line 93.
+ 1 APPPATH\Views\admin\common\side_navbar.php(93): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $menus', 'C:\\xampp\\htdocs\\code_igniter\\app\\Views\\admin\\common\\side_navbar.php', 93)
+ 2 APPPATH\Views\admin\category.php(16): include('C:\\xampp\\htdocs\\code_igniter\\app\\Views\\admin\\common\\side_navbar.php')
+ 3 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\code_igniter\\app\\Views\\admin\\category.php')
+ 4 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('admin/category', [], true)
+ 6 APPPATH\Controllers\Admin.php(55): view('admin/category', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin->category()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-15 09:22:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-15 09:22:48 --> Undefined variable $menus
+in APPPATH\Views\admin\common\side_navbar.php on line 93.
+ 1 APPPATH\Views\admin\common\side_navbar.php(93): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $menus', 'C:\\xampp\\htdocs\\code_igniter\\app\\Views\\admin\\common\\side_navbar.php', 93)
+ 2 APPPATH\Views\admin\manageuser.php(16): include('C:\\xampp\\htdocs\\code_igniter\\app\\Views\\admin\\common\\side_navbar.php')
+ 3 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\code_igniter\\app\\Views\\admin\\manageuser.php')
+ 4 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('admin/manageuser', [], true)
+ 6 APPPATH\Controllers\Admin.php(22): view('admin/manageuser', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin->users()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-15 09:22:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 09:23:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 09:23:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-15 09:23:23 --> Undefined variable $menus
+in APPPATH\Views\admin\common\side_navbar.php on line 93.
+ 1 APPPATH\Views\admin\common\side_navbar.php(93): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $menus', 'C:\\xampp\\htdocs\\code_igniter\\app\\Views\\admin\\common\\side_navbar.php', 93)
+ 2 APPPATH\Views\admin\category.php(16): include('C:\\xampp\\htdocs\\code_igniter\\app\\Views\\admin\\common\\side_navbar.php')
+ 3 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\code_igniter\\app\\Views\\admin\\category.php')
+ 4 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('admin/category', [], true)
+ 6 APPPATH\Controllers\Admin.php(55): view('admin/category', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin->category()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-15 09:23:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 09:23:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 09:23:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-15 09:23:49 --> Undefined variable $menus
+in APPPATH\Views\admin\common\side_navbar.php on line 93.
+ 1 APPPATH\Views\admin\common\side_navbar.php(93): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $menus', 'C:\\xampp\\htdocs\\code_igniter\\app\\Views\\admin\\common\\side_navbar.php', 93)
+ 2 APPPATH\Views\admin\manageuser.php(16): include('C:\\xampp\\htdocs\\code_igniter\\app\\Views\\admin\\common\\side_navbar.php')
+ 3 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\code_igniter\\app\\Views\\admin\\manageuser.php')
+ 4 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('admin/manageuser', [], true)
+ 6 APPPATH\Controllers\Admin.php(22): view('admin/manageuser', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin->users()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-15 09:23:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 09:25:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 09:25:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 09:25:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 09:25:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 09:25:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 09:27:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 09:28:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 09:29:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 09:30:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 09:33:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 10:00:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 10:01:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 11:09:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 11:11:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 11:12:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 11:13:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 11:13:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 11:13:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 11:13:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 11:13:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 11:17:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 11:19:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 11:19:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 11:19:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 11:22:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 11:23:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 11:23:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 11:24:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 11:24:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 11:24:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 11:35:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 11:42:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 11:43:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 11:44:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 11:45:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 11:46:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 11:47:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 11:51:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 11:52:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 11:54:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 11:55:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 11:56:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 11:58:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 11:59:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-15 12:01:56 --> view(): Argument #2 ($data) must be of type array, null given, called in C:\xampp\htdocs\code_igniter\app\Controllers\Admin.php on line 130
+in SYSTEMPATH\Common.php on line 1178.
+ 1 APPPATH\Controllers\Admin.php(130): view('admin/view_page', null)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin->prac_page()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-15 12:01:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 12:03:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 12:04:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 12:08:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 12:08:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 12:09:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 12:11:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 12:12:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 12:12:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 12:16:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-15 12:16:25 --> view(): Argument #2 ($data) must be of type array, null given, called in C:\xampp\htdocs\code_igniter\app\Controllers\Admin.php on line 136
+in SYSTEMPATH\Common.php on line 1178.
+ 1 APPPATH\Controllers\Admin.php(136): view('admin/view_page', null)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin->prac_page()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-15 12:16:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 12:17:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 12:21:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 12:22:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 12:24:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 12:25:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 12:25:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 12:31:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 12:33:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 12:33:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 12:33:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 12:34:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 12:34:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 12:34:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 12:34:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 12:35:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 12:37:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 12:37:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 12:37:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 12:37:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-15 12:37:59 --> Undefined variable $data
+in APPPATH\Controllers\Admin.php on line 133.
+ 1 APPPATH\Controllers\Admin.php(133): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\xampp\\htdocs\\code_igniter\\app\\Controllers\\Admin.php', 133)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin->prac_page()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-15 12:38:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 12:38:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 12:38:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 12:39:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 12:39:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 12:40:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 12:40:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-15 12:40:34 --> Undefined variable $menus
+in APPPATH\Views\admin\common\side_navbar.php on line 93.
+ 1 APPPATH\Views\admin\common\side_navbar.php(93): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $menus', 'C:\\xampp\\htdocs\\code_igniter\\app\\Views\\admin\\common\\side_navbar.php', 93)
+ 2 APPPATH\Views\admin\view_page.php(17): include('C:\\xampp\\htdocs\\code_igniter\\app\\Views\\admin\\common\\side_navbar.php')
+ 3 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\code_igniter\\app\\Views\\admin\\view_page.php')
+ 4 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('admin/view_page', [], true)
+ 6 APPPATH\Controllers\Admin.php(133): view('admin/view_page')
+ 7 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin->prac_page()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-15 12:40:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-15 12:40:39 --> Undefined variable $menus
+in APPPATH\Views\admin\common\side_navbar.php on line 93.
+ 1 APPPATH\Views\admin\common\side_navbar.php(93): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $menus', 'C:\\xampp\\htdocs\\code_igniter\\app\\Views\\admin\\common\\side_navbar.php', 93)
+ 2 APPPATH\Views\admin\view_page.php(17): include('C:\\xampp\\htdocs\\code_igniter\\app\\Views\\admin\\common\\side_navbar.php')
+ 3 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\code_igniter\\app\\Views\\admin\\view_page.php')
+ 4 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('admin/view_page', [], true)
+ 6 APPPATH\Controllers\Admin.php(133): view('admin/view_page')
+ 7 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin->prac_page()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-15 12:40:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 12:40:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-15 12:40:55 --> Undefined variable $menus
+in APPPATH\Views\admin\common\side_navbar.php on line 93.
+ 1 APPPATH\Views\admin\common\side_navbar.php(93): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $menus', 'C:\\xampp\\htdocs\\code_igniter\\app\\Views\\admin\\common\\side_navbar.php', 93)
+ 2 APPPATH\Views\admin\view_page.php(17): include('C:\\xampp\\htdocs\\code_igniter\\app\\Views\\admin\\common\\side_navbar.php')
+ 3 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\code_igniter\\app\\Views\\admin\\view_page.php')
+ 4 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('admin/view_page', [], true)
+ 6 APPPATH\Controllers\Admin.php(133): view('admin/view_page')
+ 7 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin->prac_page()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-15 12:41:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 12:41:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-15 12:44:52 --> Undefined variable $menus
+in APPPATH\Views\admin\common\side_navbar.php on line 93.
+ 1 APPPATH\Views\admin\common\side_navbar.php(93): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $menus', 'C:\\xampp\\htdocs\\code_igniter\\app\\Views\\admin\\common\\side_navbar.php', 93)
+ 2 APPPATH\Views\admin\view_page.php(17): include('C:\\xampp\\htdocs\\code_igniter\\app\\Views\\admin\\common\\side_navbar.php')
+ 3 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\code_igniter\\app\\Views\\admin\\view_page.php')
+ 4 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('admin/view_page', [], true)
+ 6 APPPATH\Controllers\Admin.php(133): view('admin/view_page')
+ 7 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin->prac_page()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-15 12:44:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-15 12:47:10 --> Undefined variable $menus
+in APPPATH\Views\admin\common\side_navbar.php on line 93.
+ 1 APPPATH\Views\admin\common\side_navbar.php(93): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $menus', 'C:\\xampp\\htdocs\\code_igniter\\app\\Views\\admin\\common\\side_navbar.php', 93)
+ 2 APPPATH\Views\admin\view_page.php(17): include('C:\\xampp\\htdocs\\code_igniter\\app\\Views\\admin\\common\\side_navbar.php')
+ 3 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\code_igniter\\app\\Views\\admin\\view_page.php')
+ 4 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('admin/view_page', [], true)
+ 6 APPPATH\Controllers\Admin.php(133): view('admin/view_page')
+ 7 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin->prac_page()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-15 12:47:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 12:47:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-15 12:47:58 --> Undefined variable $page
+in APPPATH\Views\admin\view_page.php on line 235.
+ 1 APPPATH\Views\admin\view_page.php(235): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $page', 'C:\\xampp\\htdocs\\code_igniter\\app\\Views\\admin\\view_page.php', 235)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\code_igniter\\app\\Views\\admin\\view_page.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('admin/view_page', [], true)
+ 5 APPPATH\Controllers\Admin.php(134): view('admin/view_page', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin->prac_page()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-15 12:51:24 --> Too few arguments to function App\Models\Pages::pageConnectWithValue(), 0 passed in C:\xampp\htdocs\code_igniter\app\Controllers\Admin.php on line 133 and exactly 1 expected
+in APPPATH\Models\pages.php on line 21.
+ 1 APPPATH\Controllers\Admin.php(133): App\Models\Pages->pageConnectWithValue()
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin->prac_page()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-15 12:53:32 --> Undefined variable $menu_name
+in APPPATH\Models\pages.php on line 23.
+ 1 APPPATH\Models\pages.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $menu_name', 'C:\\xampp\\htdocs\\code_igniter\\app\\Models\\pages.php', 23)
+ 2 APPPATH\Controllers\Admin.php(133): App\Models\Pages->pageConnectWithValue()
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin->prac_page()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-15 12:55:46 --> Undefined variable $thi
+in APPPATH\Controllers\Admin.php on line 133.
+ 1 APPPATH\Controllers\Admin.php(133): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $thi', 'C:\\xampp\\htdocs\\code_igniter\\app\\Controllers\\Admin.php', 133)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin->prac_page()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-15 12:57:30 --> Undefined array key "description"
+in APPPATH\Views\admin\view_page.php on line 235.
+ 1 APPPATH\Views\admin\view_page.php(235): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "description"', 'C:\\xampp\\htdocs\\code_igniter\\app\\Views\\admin\\view_page.php', 235)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\code_igniter\\app\\Views\\admin\\view_page.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('admin/view_page', [], true)
+ 5 APPPATH\Controllers\Admin.php(137): view('admin/view_page', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin->prac_page()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-15 12:57:47 --> Undefined array key "description"
+in APPPATH\Views\admin\view_page.php on line 235.
+ 1 APPPATH\Views\admin\view_page.php(235): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "description"', 'C:\\xampp\\htdocs\\code_igniter\\app\\Views\\admin\\view_page.php', 235)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\code_igniter\\app\\Views\\admin\\view_page.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('admin/view_page', [], true)
+ 5 APPPATH\Controllers\Admin.php(137): view('admin/view_page', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin->prac_page()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-15 12:58:41 --> Trying to access array offset on value of type null
+in APPPATH\Views\admin\view_page.php on line 235.
+ 1 APPPATH\Views\admin\view_page.php(235): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\code_igniter\\app\\Views\\admin\\view_page.php', 235)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\code_igniter\\app\\Views\\admin\\view_page.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('admin/view_page', [], true)
+ 5 APPPATH\Controllers\Admin.php(137): view('admin/view_page', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin->prac_page()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-15 12:58:53 --> Trying to access array offset on value of type null
+in APPPATH\Views\admin\view_page.php on line 235.
+ 1 APPPATH\Views\admin\view_page.php(235): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\code_igniter\\app\\Views\\admin\\view_page.php', 235)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\code_igniter\\app\\Views\\admin\\view_page.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('admin/view_page', [], true)
+ 5 APPPATH\Controllers\Admin.php(137): view('admin/view_page', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin->prac_page()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-15 12:58:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-15 12:58:57 --> Trying to access array offset on value of type null
+in APPPATH\Views\admin\view_page.php on line 235.
+ 1 APPPATH\Views\admin\view_page.php(235): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\code_igniter\\app\\Views\\admin\\view_page.php', 235)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\code_igniter\\app\\Views\\admin\\view_page.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('admin/view_page', [], true)
+ 5 APPPATH\Controllers\Admin.php(137): view('admin/view_page', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin->prac_page()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-15 13:00:47 --> Trying to access array offset on value of type null
+in APPPATH\Views\admin\view_page.php on line 235.
+ 1 APPPATH\Views\admin\view_page.php(235): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\code_igniter\\app\\Views\\admin\\view_page.php', 235)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\code_igniter\\app\\Views\\admin\\view_page.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('admin/view_page', [], true)
+ 5 APPPATH\Controllers\Admin.php(137): view('admin/view_page', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin->prac_page()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-15 13:00:48 --> Trying to access array offset on value of type null
+in APPPATH\Views\admin\view_page.php on line 235.
+ 1 APPPATH\Views\admin\view_page.php(235): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\code_igniter\\app\\Views\\admin\\view_page.php', 235)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\code_igniter\\app\\Views\\admin\\view_page.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('admin/view_page', [], true)
+ 5 APPPATH\Controllers\Admin.php(137): view('admin/view_page', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin->prac_page()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-15 13:00:49 --> Trying to access array offset on value of type null
+in APPPATH\Views\admin\view_page.php on line 235.
+ 1 APPPATH\Views\admin\view_page.php(235): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\code_igniter\\app\\Views\\admin\\view_page.php', 235)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\code_igniter\\app\\Views\\admin\\view_page.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('admin/view_page', [], true)
+ 5 APPPATH\Controllers\Admin.php(137): view('admin/view_page', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin->prac_page()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-15 13:00:49 --> Trying to access array offset on value of type null
+in APPPATH\Views\admin\view_page.php on line 235.
+ 1 APPPATH\Views\admin\view_page.php(235): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\code_igniter\\app\\Views\\admin\\view_page.php', 235)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\code_igniter\\app\\Views\\admin\\view_page.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('admin/view_page', [], true)
+ 5 APPPATH\Controllers\Admin.php(137): view('admin/view_page', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin->prac_page()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-15 13:00:49 --> Trying to access array offset on value of type null
+in APPPATH\Views\admin\view_page.php on line 235.
+ 1 APPPATH\Views\admin\view_page.php(235): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\code_igniter\\app\\Views\\admin\\view_page.php', 235)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\code_igniter\\app\\Views\\admin\\view_page.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('admin/view_page', [], true)
+ 5 APPPATH\Controllers\Admin.php(137): view('admin/view_page', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin->prac_page()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-15 13:00:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 13:00:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-15 13:00:56 --> Trying to access array offset on value of type null
+in APPPATH\Views\admin\view_page.php on line 235.
+ 1 APPPATH\Views\admin\view_page.php(235): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\code_igniter\\app\\Views\\admin\\view_page.php', 235)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\code_igniter\\app\\Views\\admin\\view_page.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('admin/view_page', [], true)
+ 5 APPPATH\Controllers\Admin.php(137): view('admin/view_page', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin->prac_page()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-15 13:04:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-15 13:05:03 --> Trying to access array offset on value of type null
+in APPPATH\Views\admin\view_page.php on line 235.
+ 1 APPPATH\Views\admin\view_page.php(235): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\code_igniter\\app\\Views\\admin\\view_page.php', 235)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\code_igniter\\app\\Views\\admin\\view_page.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('admin/view_page', [], true)
+ 5 APPPATH\Controllers\Admin.php(137): view('admin/view_page', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin->prac_page()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-15 13:05:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-15 13:05:25 --> Trying to access array offset on value of type null
+in APPPATH\Views\admin\view_page.php on line 235.
+ 1 APPPATH\Views\admin\view_page.php(235): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\code_igniter\\app\\Views\\admin\\view_page.php', 235)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\code_igniter\\app\\Views\\admin\\view_page.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('admin/view_page', [], true)
+ 5 APPPATH\Controllers\Admin.php(137): view('admin/view_page', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin->prac_page()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-15 13:06:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 13:07:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 13:08:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 13:09:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

@@ -1,0 +1,247 @@
+CRITICAL - 2024-01-04 07:45:04 --> Cannot redeclare App\Controllers\Admin::users()
+in APPPATH\Controllers\Admin.php on line 18.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-01-04 07:45:10 --> Cannot redeclare App\Controllers\Admin::users()
+in APPPATH\Controllers\Admin.php on line 18.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-01-04 07:46:04 --> Cannot redeclare App\Controllers\Admin::users()
+in APPPATH\Controllers\Admin.php on line 18.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-01-04 08:07:06 --> Undefined variable $users
+in APPPATH\Views\admin\manageuser.php on line 248.
+ 1 APPPATH\Views\admin\manageuser.php(248): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $users', 'C:\\xampp\\htdocs\\code_igniter\\app\\Views\\admin\\manageuser.php', 248)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\code_igniter\\app\\Views\\admin\\manageuser.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('admin/manageuser', [], true)
+ 5 APPPATH\Controllers\Admin.php(16): view('admin/manageuser')
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin->users()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-04 08:07:44 --> Undefined variable $users
+in APPPATH\Views\admin\manageuser.php on line 248.
+ 1 APPPATH\Views\admin\manageuser.php(248): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $users', 'C:\\xampp\\htdocs\\code_igniter\\app\\Views\\admin\\manageuser.php', 248)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\code_igniter\\app\\Views\\admin\\manageuser.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('admin/manageuser', [], true)
+ 5 APPPATH\Controllers\Admin.php(16): view('admin/manageuser')
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin->users()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-04 08:09:18 --> Undefined variable $users
+in APPPATH\Views\admin\manageuser.php on line 248.
+ 1 APPPATH\Views\admin\manageuser.php(248): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $users', 'C:\\xampp\\htdocs\\code_igniter\\app\\Views\\admin\\manageuser.php', 248)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\code_igniter\\app\\Views\\admin\\manageuser.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('admin/manageuser', [], true)
+ 5 APPPATH\Controllers\Admin.php(16): view('admin/manageuser')
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin->users()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-04 08:09:19 --> Undefined variable $users
+in APPPATH\Views\admin\manageuser.php on line 248.
+ 1 APPPATH\Views\admin\manageuser.php(248): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $users', 'C:\\xampp\\htdocs\\code_igniter\\app\\Views\\admin\\manageuser.php', 248)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\code_igniter\\app\\Views\\admin\\manageuser.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('admin/manageuser', [], true)
+ 5 APPPATH\Controllers\Admin.php(16): view('admin/manageuser')
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin->users()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-04 08:09:25 --> Undefined variable $users
+in APPPATH\Views\admin\manageuser.php on line 248.
+ 1 APPPATH\Views\admin\manageuser.php(248): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $users', 'C:\\xampp\\htdocs\\code_igniter\\app\\Views\\admin\\manageuser.php', 248)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\code_igniter\\app\\Views\\admin\\manageuser.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('admin/manageuser', [], true)
+ 5 APPPATH\Controllers\Admin.php(16): view('admin/manageuser')
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin->users()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-04 08:09:40 --> Undefined variable $users
+in APPPATH\Views\admin\manageuser.php on line 248.
+ 1 APPPATH\Views\admin\manageuser.php(248): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $users', 'C:\\xampp\\htdocs\\code_igniter\\app\\Views\\admin\\manageuser.php', 248)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\code_igniter\\app\\Views\\admin\\manageuser.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('admin/manageuser', [], true)
+ 5 APPPATH\Controllers\Admin.php(16): view('admin/manageuser')
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin->users()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-04 08:09:46 --> Undefined variable $users
+in APPPATH\Views\admin\manageuser.php on line 248.
+ 1 APPPATH\Views\admin\manageuser.php(248): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $users', 'C:\\xampp\\htdocs\\code_igniter\\app\\Views\\admin\\manageuser.php', 248)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\code_igniter\\app\\Views\\admin\\manageuser.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('admin/manageuser', [], true)
+ 5 APPPATH\Controllers\Admin.php(16): view('admin/manageuser')
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin->users()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-04 08:10:56 --> Undefined variable $users
+in APPPATH\Views\admin\manageuser.php on line 248.
+ 1 APPPATH\Views\admin\manageuser.php(248): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $users', 'C:\\xampp\\htdocs\\code_igniter\\app\\Views\\admin\\manageuser.php', 248)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\code_igniter\\app\\Views\\admin\\manageuser.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('admin/manageuser', [], true)
+ 5 APPPATH\Controllers\Admin.php(16): view('admin/manageuser')
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin->users()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-04 08:11:31 --> Undefined variable $users
+in APPPATH\Views\admin\manageuser.php on line 248.
+ 1 APPPATH\Views\admin\manageuser.php(248): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $users', 'C:\\xampp\\htdocs\\code_igniter\\app\\Views\\admin\\manageuser.php', 248)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\code_igniter\\app\\Views\\admin\\manageuser.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('admin/manageuser', [], true)
+ 5 APPPATH\Controllers\Admin.php(16): view('admin/manageuser')
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin->users()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-04 08:13:26 --> Undefined variable $users
+in APPPATH\Views\admin\manageuser.php on line 248.
+ 1 APPPATH\Views\admin\manageuser.php(248): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $users', 'C:\\xampp\\htdocs\\code_igniter\\app\\Views\\admin\\manageuser.php', 248)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\code_igniter\\app\\Views\\admin\\manageuser.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('admin/manageuser', [], true)
+ 5 APPPATH\Controllers\Admin.php(16): view('admin/manageuser')
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin->users()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-04 08:15:32 --> Undefined variable $user
+in APPPATH\Views\admin\manageuser.php on line 248.
+ 1 APPPATH\Views\admin\manageuser.php(248): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $user', 'C:\\xampp\\htdocs\\code_igniter\\app\\Views\\admin\\manageuser.php', 248)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\code_igniter\\app\\Views\\admin\\manageuser.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('admin/manageuser', [], true)
+ 5 APPPATH\Controllers\Admin.php(16): view('admin/manageuser')
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin->users()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-04 08:15:40 --> Undefined variable $user
+in APPPATH\Views\admin\manageuser.php on line 248.
+ 1 APPPATH\Views\admin\manageuser.php(248): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $user', 'C:\\xampp\\htdocs\\code_igniter\\app\\Views\\admin\\manageuser.php', 248)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\code_igniter\\app\\Views\\admin\\manageuser.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('admin/manageuser', [], true)
+ 5 APPPATH\Controllers\Admin.php(16): view('admin/manageuser')
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin->users()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-04 08:16:45 --> Undefined variable $user
+in APPPATH\Views\admin\manageuser.php on line 248.
+ 1 APPPATH\Views\admin\manageuser.php(248): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $user', 'C:\\xampp\\htdocs\\code_igniter\\app\\Views\\admin\\manageuser.php', 248)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\code_igniter\\app\\Views\\admin\\manageuser.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('admin/manageuser', [], true)
+ 5 APPPATH\Controllers\Admin.php(16): view('admin/manageuser')
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin->users()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-04 08:16:50 --> Undefined variable $user
+in APPPATH\Views\admin\manageuser.php on line 248.
+ 1 APPPATH\Views\admin\manageuser.php(248): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $user', 'C:\\xampp\\htdocs\\code_igniter\\app\\Views\\admin\\manageuser.php', 248)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\code_igniter\\app\\Views\\admin\\manageuser.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('admin/manageuser', [], true)
+ 5 APPPATH\Controllers\Admin.php(16): view('admin/manageuser')
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin->users()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-04 08:19:02 --> Undefined variable $user
+in APPPATH\Views\admin\manageuser.php on line 248.
+ 1 APPPATH\Views\admin\manageuser.php(248): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $user', 'C:\\xampp\\htdocs\\code_igniter\\app\\Views\\admin\\manageuser.php', 248)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\code_igniter\\app\\Views\\admin\\manageuser.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('admin/manageuser', [], true)
+ 5 APPPATH\Controllers\Admin.php(16): view('admin/manageuser')
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin->users()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-04 08:20:20 --> Class "app\Models\Users" not found
+in APPPATH\Controllers\Admin.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin->users()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-04 08:21:05 --> Class "app\Models\Users" not found
+in APPPATH\Controllers\Admin.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin->users()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-04 08:22:44 --> Class "app\Models\Users" not found
+in APPPATH\Controllers\Admin.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin->users()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-04 08:23:16 --> Class "app\Models\Users" not found
+in APPPATH\Controllers\Admin.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin->user()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-04 08:23:48 --> Class "app\Models\Users" not found
+in APPPATH\Controllers\Admin.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin->user()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-04 08:24:00 --> Class "app\Models\Users" not found
+in APPPATH\Controllers\Admin.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin->user()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-04 08:26:04 --> Class "app\Models\Users" not found
+in APPPATH\Controllers\Admin.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin->users()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-04 08:29:56 --> Class "app\Models\Users" not found
+in APPPATH\Controllers\Admin.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin->users()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-04 09:41:00 --> Undefined variable $moddel
+in APPPATH\Controllers\Admin.php on line 25.
+ 1 APPPATH\Controllers\Admin.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $moddel', 'C:\\xampp\\htdocs\\code_igniter\\app\\Controllers\\Admin.php', 25)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin->user_update()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-04 12:09:24 --> Undefined constant "App\Controllers\console"
+in APPPATH\Controllers\Admin.php on line 33.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin->user_delete()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-04 13:06:48 --> include(foot_lib.php): Failed to open stream: No such file or directory
+in APPPATH\Views\home\register.php on line 80.
+ 1 APPPATH\Views\home\register.php(80): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(foot_lib.php): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\code_igniter\\app\\Views\\home\\register.php', 80)
+ 2 APPPATH\Views\home\register.php(80): include()
+ 3 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\code_igniter\\app\\Views\\home\\register.php')
+ 4 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('home/register', [], true)
+ 6 APPPATH\Controllers\Home.php(9): view('home/register')
+ 7 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->register()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
